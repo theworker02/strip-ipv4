@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/strip-ipv4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip timestamps and ipv4 durations for scripts and CI receipts.",
+  "bin": {
+    "strip-ipv4": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/strip-ipv4.git"
+  },
+  "homepage": "https://theworker02.github.io/strip-ipv4/",
+  "keywords": [
+    "strip",
+    "ipv4",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
